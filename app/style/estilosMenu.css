@@ -1,0 +1,125 @@
+.espacio-izquierdo {
+    width: 240px;
+    margin-left: 13%;
+    float: left; 
+}
+.espacio-derecho {
+    margin-left: 33.5%;
+    overflow: hidden;
+    margin-right: 9%;
+}
+.espacio-sombreado {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+}
+
+.espacio-sombreado img {
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 25%;
+    height: auto;
+}
+
+.espacio-sobrante {
+    margin-top: 2%;
+    flex-grow: 2;
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.espacio-sobrante {
+    margin-top: 2%;
+    flex-grow: 2;
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.arriba {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(55, 205, 255);
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.arriba p {
+    margin: 10px 15px;
+    color: white;
+}
+
+.contenido-adicional {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido-adicional img {
+    max-width: 50px;
+    height: auto;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido-adicional p {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 102, 255);
+}
+
+.contenedor {
+    display: flex; 
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.contenedor p{
+    color: #0400ff;
+}
+
+.contenedor img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.linea_negra {
+    margin-right: 10%;
+    border-top-style: solid;
+    border-top-color: #1D1D1D;
+    padding-top: 15px; 
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
